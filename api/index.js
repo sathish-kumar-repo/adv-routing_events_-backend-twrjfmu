@@ -21,6 +21,6 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: message });
 });
 
-app.listen(8000, () => console.log("Server ready on port 3000."));
+app.listen(8080, () => console.log("Server ready on port 8080."));
 
 module.exports = app;
